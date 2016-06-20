@@ -30,7 +30,7 @@ a { color:#333; text-decoration:none; }
 #top-content { background:url(../img/top-content.png) 0 0 no-repeat; min-height:270px; width:886px; padding:67px 67px 9px 67px; margin-bottom:0; display:inline-block;}
 #top-content .photo-holder {  padding:10px 10px 4px 10px; background:#f6f6f6; border:solid 1px #d5d5d5; margin-bottom:18px; }
 /* IE7 Fix */ *:first-child+html #top-content .photo-holder { padding-bottom:10px; }  
-#top-content .photo-shaddow { background:url(../img/shaddow.png) no-repeat scroll -2px 100% transparent; width:auto; height:auto; float:left; margin:0 35px 12px 0; overflow:visible;   }
+#top-content .photo-shaddow { background:url(../img/shaddow.png) no-repeat scroll 35px 100% transparent; width:auto; height:auto; float:left; margin:0 35px 12px 0; overflow:visible;   }
 
 #top-content .top-description { font-family: Arial, Helvetica, sans-serif; font-size:19px; font-weight:normal; margin-top:10px; margin-bottom:15px; }
 

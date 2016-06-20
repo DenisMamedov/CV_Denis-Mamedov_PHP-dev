@@ -1,21 +1,4 @@
-/*
-Fancy Resume / CV 
-Created: 02/02/2010
-By: Catalin Pinte
-Contact Info: pinte_catalin@yahoo.com
-*/
-
-/* RESET CSS */
 * {	margin:0; padding:0; outline:0; border:0; }
-
-/* BASIC */
-/*  
-     background 1  :   #a3a8ad url(../img/background-1.png) 0 0 repeat-x; 
-     background 2  :   #a3a8ad url(../img/background-2.png) 0 0 repeat-x; 
-     background 3  :   #333 url(../img/background-3.png) 0 0 repeat-x;  
-     background 4  :   #2f597f url(../img/background-4.png) 0 0 repeat-x;
-     background 5  :   #173d5f url(../img/background-5.png) 0 0 repeat-x;
-*/
 
 body { 
     background: #a3a8ad url(../img/background-1.png) 0 0 repeat-x; 

@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<link href="css/style.css" type="text/css" rel="stylesheet" rev="stylesheet" media="screen">
+<link href="css/print.css" type="text/css" rel="stylesheet" rev="stylesheet" media="print">
+<link href="fancybox/jquery.fancybox-1.3.0.css" type="text/css" rel="stylesheet" rev="stylesheet" media="screen">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<title>CV</title>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/language.js"></script>
+    <script src="fancybox/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+    <script src="js/jquery-1.4.js" type="text/javascript"></script>
+    <script src="fancybox/jquery.fancybox-1.3.0.pack.js" type="text/javascript"></script>
+    <script src="js/cufon.js" type="text/javascript"></script>
+    <script src="js/jquery.validate.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="main">
+   <div id="top-content"><!-- Personal informations  -->
+       <div class="photo-shaddow">
+            <div class="photo-holder"><img src="img/photo.JPG" alt=""></div>
+       </div>
+       <h1 id="name"> Денис Мамедов</h1>
+       <h3> PHP developer </h3>
+       <p id="goal" class="top-description">
+          Цель: Начать карьеру junior PHP developer с целью дорасти до teamlead. 
+       </p>
+                               
+       <h4 id="address" class="address"> г. Киев </h4>
+       <h4 class="phone"> (063) 75-99-300 </h4>
+       <h4 class="mail"><a href="mailto:mamedovdenis87@gmail.com">mamedovdenis87@gmail.com </a></h4>
+        
+       <ul class="controls">
+           <li class="save" title="Скачать резюме"><a  id="save" href="https://github.com/DenisMamedov/CV_Denis-Mamedov_PHP-dev.git">&nbsp;</a></li>
+           <li class="print" title="Печать резюме"><a id="print" href="#">&nbsp;</a></li>
+           <li class="mail-top" title="Написать мне"><a id="contact-me" href="#contact-div">&nbsp;</a></li>
+           <li title="Английский язык" id="en" class="en"><a href="#">EN</a></li>
+           <li title="Русский язык" id="ru" class="ru"><a href="/resume">RU</a></li>
+           <!-- tooltip -->
+           <li id="tooltip" class="inactive"><b></b></li>
+      </ul>
+
+   </div><!-- end of personal informations ( fixed ) -->
+       
+         
+   <!-- Begin Midle content -->   
+   <div id="middle-content">
+      <div class="hr">&nbsp;</div>
+
+      <!-- Begin of Tehnical Skills -->
+           <h2 id="base">Техническая база</h2>
+           <ul class="list">
+               <li class="arrow-up">&nbsp;</li>
+               <li>
+                    <h3>HTML + CSS</h3> <h5 id="term1"> Базовый, 6 месяцев </h5>
+                   <p id="skills1" class="description">
+                       Могу работать с фрейморком Bootstrap. Верстка на среднем уровне.
+                   </p>
+               </li>
+               <li>
+                    <h3>PHP5 + MYSQL</h3>  <h5 id="term2"> Базовый, 6 месяцев </h5>
+                          
+                    <p id="skills2" class="description">
+                         Понимаю принципы ООП и архитектуры MVC. Могу писать запросы в базу средней сложности.
+                    </p>
+               </li>
+               <li>
+
+                    <h3>JAVASCRIPT + jQuery </h3>  <h5 id="term3"> Базовый, 6 месяцев </h5>
+                          
+                    <p id="skills3" class="description">
+                         Есть опыт работы с технологиями jQuery. Могу писать простые скрипты.
+                    </p>
+               </li>
+           </ul><!-- End of Tehnical Skills -->         
+
+               
+           <!-- Begin of Education -->
+           <h2 id="education">Образование </h2>
+           <ul class="list">
+               <li class="arrow-up">&nbsp;</li>
+               <li>
+                    <h3 id="highschool"> Высшее, НТУУ "КПИ" </h3>  <h5> 2004 - 2009 </h5>
+                    <div id="specialty" class="description">
+                         Специальность: автоматизация и компьютерно-интегрированные технологии.
+                    </div>
+               </li>
+               <li>
+                    <h3 id="courses">Курсы, PHP Academy</h3>  <h5> 2016 </h5>
+                          
+                    <p id="diploma" class="description">
+                        В качестве проекта был разработан сайт с базой данных для создания тендеров и закупок.
+                        Пользователь может подавать ценовые предложения на тендер.
+                        В результате анализа тендера пользователь получает уведомление о выигрыше или проигрыше в закупке.
+                    </p>
+               </li>
+           </ul>     
+           <!-- End of Education -->
+       <h2 id="about">Дополнительная информация</h2>
+       <ul class="list">
+           <li class="arrow-up">&nbsp;</li>
+           <li>
+               <h3 id="personal"> Коротко о себе </h3>
+               <div id="info" class="description">
+                   Большое желание обучатся в рабочей среде. Без вредных привычек. Женат.
+               </div>
+           </li>
+           </ul>
+          <!-- Begin of Get in touch -->
+          <h2 id="get_in_touch">Выйти на связь !</h2>
+                 <ul class="list">
+				     <li class="arrow-up">&nbsp;</li>
+				     <li>
+					        <ul id="social">
+								<li><a href="https://github.com/DenisMamedov"><i class="fa fa-github fa-4x"></i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=100012429858940"><i class="fa fa-facebook-square fa-4x"></i></a></li>
+                                <li><a href="www.linkedin.com/in/денис-мамедов"><i class="fa fa-linkedin-square fa-4x"></i></a></li>
+							</ul>
+
+                     </li>
+           </ul><!-- End of Get in touch -->
+   </div><!-- End of Midle content -->   
+   <div id="bottom-content">&nbsp;</div>
+   
+</div><!-- End of Main -->
+
+
+
+<!-- Hiden contact form  --> 
+   <div style="display:none;">
+     <div id="contact-div">
+            <h2 id="online">Онлайн контакт</h2>
+
+            <p class="contact_success"> <span class="success"> Ваше сообщение отправленно </span></p>
+            <p class="contact_error"> <span class="error"> Ваше сообщение не отправлено из-за ошибки сервера.</span></p>
+            
+            <form action="process_form.php" method="post" name="contact" id="contact">
+            <div>
+               <label for="firstname" id="f_name"> * Имя</label>
+               <input class="i-text" type="text" id="firstname" name="firstname">
+            </div>  
+            <div style="margin-left:10px; margin-right:0;"> 
+               <label for="lastname" id="l_name"> * Фамилия</label>
+               <input class="i-text" type="text" id="lastname" name="lastname">
+            </div>  
+            <div> 
+               <label for="email"> * E&ndash;mail</label>
+               <input class="i-text" type="text" id="email" name="email">
+            </div>  
+            <div style="margin-left:10px; margin-right:0;"> 
+               <label for="phone" id="tel"> * Телефон</label><br>
+               <input class="i-text" type="text" id="phone" name="phone">
+            </div>  
+             <p>              
+               <label for="message" id="msg"> * Сообщение</label>
+               <textarea id="message" name="message" rows="10" cols="40"></textarea>
+            
+            <input class="i-submit" type="submit" id="send" name="send" value="Отправить сообщение">
+            </p>
+            <div id="loading"> Отправка сообщения ...</div>
+            </form>
+      </div>
+   </div>
+</body>
+
